@@ -7,29 +7,29 @@ void	ft_ultimate_ft(int *********nbr)
 
 int	main(void)
 {
-	int	n;
-	int	*nbr8;
-	int	**nbr7;
-	int	***nbr6;
-	int	****nbr5;
-	int	*****nbr4;
-	int	******nbr3;
-	int	*******nbr2;
-	int	********nbr1;
-	int	*********nbr;
+	int	f;
+	int	*fy1;
+	int	**fy2;
+	int	***fy3;
+	int	****fy4;
+	int	*****fy5;
+	int	******fy6;
+	int	*******fy7;
+	int	********fy8;
+	int	*********fy9;
 
-	n = 27;	
-	nbr8 = &n;
-	nbr7 = &nbr8;
-	nbr6 = &nbr7;
-	nbr5 = &nbr6;
-	nbr4 = &nbr5;
-	nbr3 = &nbr4;
-	nbr2 = &nbr3;
-	nbr1 = &nbr2;
-	nbr = &nbr1;
+	f = 27;	
+	fy1 = &f;
+	fy2 = &fy1;
+	fy3 = &fy2;
+	fy4 = &fy3;
+	fy5 = &fy4;
+	fy6 = &fy5;
+	fy7 = &fy6;
+	fy8 = &fy7;
+	fy9 = &fy8;
 	
-	ft_ultimate_ft(nbr);
-	printf("%d", n);
+	ft_ultimate_ft(fy9);
+	printf("%d", f);
 	return (0);
 }	
